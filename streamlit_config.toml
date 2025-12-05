@@ -1,0 +1,14 @@
+# Streamlit Cloud Deployment Configuration
+# This file tells Streamlit Cloud how to run your app
+
+[client]
+showErrorDetails = true
+logger.level = "info"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+
+[logger]
+level = "info"
